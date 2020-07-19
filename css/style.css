@@ -1,0 +1,171 @@
+/* import fonts from fonts.css */
+@import url(fonts.css);
+@import url(/css/partials/_variables.css);
+@import url(/css/partials/_globals.css);
+
+
+/* Start Navigation */
+.header_area .main-menu .navbar .navbar-brand{
+    padding : 0 2rem 0 5rem; 
+}
+
+header{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    background: white;
+}
+
+.mylogo{
+    height: 5vw;
+    width: 10vw;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 10rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--quicksands);
+    text-transform: uppercase;
+    padding: 1.6rem;
+    color: var(--title-color);
+}
+
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */
+
+
+/* Banner Image
+.site-main .site-banner{
+    background: url(/img/banner/home-banner.png) no-repeat;
+    background-position: 0% 50%;
+} */
+
+/* .site-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.site-main .site-banner .site-title h3{
+    padding-top: 45%;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: var(--quicksands);
+    
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: var(--gradient-color);
+    display: inline-block;
+    margin-left: 8px;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/* End Banner Image */
+
+/* About section */
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+
+.site-main .about-area .about-title h2>span{
+    display: block;
+    font: normal bold 49px/60px var(--raleway);
+    letter-spacing: 19px;
+}
+/* End About section */
+
+
+/* Experience Section */
+
+.experience-area .exp-container{
+    text-align: center;
+}
+
+.experience-area .exp-title{
+    font: normal 500 80px/80px var(--raleway);
+    letter-spacing: 3px;
+
+}
+.exp-line{
+    border: 1px thin grey;
+}
+
+.title-spec{
+    font-weight: 2rem;
+    font: normal 500 80px/80px var(--raleway);
+    letter-spacing: 1.5;
+}
+
+
+.short-text{
+    font-family: 'raleway-thin';
+    font-size: 1.6rem;
+}
+
+.author-text{
+    font-family: 'raleway-thin';
+    font-size: 1.3rem;
+}
+
+.exp-info{
+    font-family: 'raleway-thin';
+    color: black;
+    font-size: 1rem;
+}
+
+.head-text{
+    font: normal 500 38px/40px var(--raleway);
+    background: linear-gradient(var(--primary-color),var(--primary-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.edu-text{
+    font-family: 'raleway';
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.time-span{
+    font-family: 'raleway-thin';
+    color: black;
+    font-size: 1rem;
+}
+
+
