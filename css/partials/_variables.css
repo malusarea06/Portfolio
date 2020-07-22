@@ -25,4 +25,11 @@ html, body{
     --quicksands: 'quicksand', cursive;
     --raleway_thin: 'raleway-thin', cursive;
     --quicksand-thin: 'quicksand-thin', cursive;
+    --roboto-italic: 'raleway-italic'
+}
+
+.proj-info{
+    font-family: 'raleway-italic';
+    font-size: 1rem;
+    align-items: center;
 }

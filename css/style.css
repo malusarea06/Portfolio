@@ -127,8 +127,8 @@ header{
 
 .title-spec{
     font-weight: 2rem;
-    font: normal 500 80px/80px var(--raleway);
-    letter-spacing: 1.5;
+    font: normal 500 70px/70px var(--raleway);
+    letter-spacing: 1.6;
 }
 
 
@@ -148,11 +148,19 @@ header{
     font-size: 1rem;
 }
 
-.head-text{
-    font: normal 500 38px/40px var(--raleway);
+/* .head-text{
+    font: normal 500 30px/30px var(--raleway);
     background: linear-gradient(var(--primary-color),var(--primary-color2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+} */
+.head-text{
+    font: normal 500 30px/30px var(--raleway);
+    color: #236790;
+}
+
+.skills-sec{
+    margin-top: 7%;
 }
 
 .edu-text{
@@ -168,4 +176,133 @@ header{
     font-size: 1rem;
 }
 
+.skill-text{
+    font-family: 'raleway-thin';
+    font-size: 1.1rem;
+}
 
+.icon-color{
+    background: linear-gradient(var(--primary-color),var(--primary-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 
+.skill-row:after,
+.skill-row:before {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding-right: 5%;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	
+}
+
+.skill-row:before {
+
+    border-left: 1px solid #236790;
+    border-right: 1px solid #236790;
+    -webkit-transform: scale(1,0);
+      transform: scale(1,0);
+  }
+  
+.skill-row:after {
+    
+    border-bottom: 1px solid #236790;
+    border-top: 1px solid #236790;
+    -webkit-transform: scale(0,1);
+      transform: scale(0,1);
+  }
+.skill-row:hover:after,
+.skill-row:hover:before {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+} */
+
+.skill-row{
+    transition: .4s ease-in-out;
+}
+
+.skill-row:hover{
+    transform: scale(1.1);
+}
+
+.gitbtn{
+    padding: .8rem 2.2rem;
+    font: normal 500 13px/20px var(--raleway);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+
+}
+
+.gitbtn.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background.6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.gitbtn.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.contct{
+    font-weight: 2rem;
+    font: normal 500 70px/70px var(--raleway);
+    letter-spacing: 1.6;
+    padding-top: 10%;
+    color: whitesmoke;
+}
+
+.contact-me{
+    /* background: #4d5557; */
+    background:#81898b;
+}
+
+.exp-lin{
+    height: 1px;
+    background-color: whitesmoke;
+    border: thin;
+}
+.con-text{
+    font-family: 'raleway-thin';
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+.auth-text{
+    font-family: 'raleway-thin';
+    font-size: 1.3rem;
+    color: whitesmoke;
+
+}
+
+.ico{
+    width: 50px;
+    height: 50px;
+}
+
+.link-meth{
+    font-family: 'raleway-thin';
+    font-size: 1.1rem;
+    color: whitesmoke;
+    
+}
+
+.linked-in{
+    
+}
+
+.link-meth:hover{
+    color: whitesmoke;
+}
